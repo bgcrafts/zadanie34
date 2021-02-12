@@ -1,9 +1,9 @@
-let a = "Uwielbiam JavaScript";
-let b = "Jestem świetnym programistą";
+let x = "Uwielbiam JavaScript";
+let y = "Jestem świetnym programistą";
 
 let c = function(a, b) {
 
-    if ( a.lenght > b.length) {
+    if ( a.length > b.length) {
         return a;
     }
 
@@ -13,4 +13,4 @@ let c = function(a, b) {
 
 }
 
-console.log(c(a,b));
+console.log(c(x,y));
